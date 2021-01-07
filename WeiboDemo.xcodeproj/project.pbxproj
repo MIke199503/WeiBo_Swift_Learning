@@ -101,6 +101,8 @@
 		DD6407E125A33D92008BD64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6407CB25A33D91008BD64F /* Assets.xcassets */; };
 		DD6407ED25A343B2008BD64F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6407EC25A343B2008BD64F /* PostCell.swift */; };
 		DD64089A25A348EF008BD64F /* PostVIPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64089925A348EF008BD64F /* PostVIPBadge.swift */; };
+		DDA09A4425A7437100165034 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09A4325A7437100165034 /* PostImageView.swift */; };
+		DDA09A4825A74F4F00165034 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA09A4725A74F4F00165034 /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -200,6 +202,8 @@
 		DD6407DB25A33D92008BD64F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		DD6407EC25A343B2008BD64F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DD64089925A348EF008BD64F /* PostVIPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVIPBadge.swift; sourceTree = "<group>"; };
+		DDA09A4325A7437100165034 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
+		DDA09A4725A74F4F00165034 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,7 +330,9 @@
 				DD6407C925A33D91008BD64F /* WeiboDemoApp.swift */,
 				DD6407CA25A33D91008BD64F /* ContentView.swift */,
 				DD6407EC25A343B2008BD64F /* PostCell.swift */,
+				DDA09A4325A7437100165034 /* PostImageView.swift */,
 				DD412E4D25A5EB13007B853E /* PostListView.swift */,
+				DDA09A4725A74F4F00165034 /* PostDetailView.swift */,
 				DD412E4925A5E386007B853E /* PostCellToolBarButton.swift */,
 				DD64089925A348EF008BD64F /* PostVIPBadge.swift */,
 				DD2D552625A493A000F91DAA /* Post.swift */,
@@ -542,8 +548,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA09A4825A74F4F00165034 /* PostDetailView.swift in Sources */,
 				DD6407DE25A33D92008BD64F /* ContentView.swift in Sources */,
 				DD64089A25A348EF008BD64F /* PostVIPBadge.swift in Sources */,
+				DDA09A4425A7437100165034 /* PostImageView.swift in Sources */,
 				DD6407DC25A33D92008BD64F /* WeiboDemoApp.swift in Sources */,
 				DD412E4A25A5E386007B853E /* PostCellToolBarButton.swift in Sources */,
 				DD6407ED25A343B2008BD64F /* PostCell.swift in Sources */,

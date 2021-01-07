@@ -55,11 +55,7 @@ struct PostCell: View {
             Text(post.text)
                 .font(.system(size: 17))
             if !post.image.isEmpty{
-                loadImage(name: post.image[0])
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width - 30, height: (UIScreen.main.bounds.width - 30 ) * 0.75)
-                    .clipped()
+                PostImageView(image: post.image, width: UIScreen.main.bounds.width)
             }
             Divider()
             
